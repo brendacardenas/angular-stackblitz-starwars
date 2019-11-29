@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, ListComponent ],
+  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, ListComponent, CardsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
