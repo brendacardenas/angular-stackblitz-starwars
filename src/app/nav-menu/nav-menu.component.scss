@@ -81,9 +81,9 @@ background: url(image.png);
   top: 0;
   left: 0;
   z-index: 1;
-  width: 60px;
-  height: 60px;
-  padding: 1rem;
+  width: 30px;
+  height: 30px;
+  padding: 2rem;
   background: var(--primary-color);
   display: flex;
   align-items: center;
@@ -181,7 +181,7 @@ background: url(image.png);
 .menu-wrap .menu > div > div {
   text-align: center;
   max-width: 90vw;
-  max-height: 100vh;
+  max-height: 50vh;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -190,8 +190,8 @@ background: url(image.png);
   list-style: none;
   color:#FFE81F;
   font-size: 1.5rem;
-  padding: 1rem;
   font-family: Staatliches;
+  margin-right: 100px;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
