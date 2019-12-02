@@ -10,11 +10,12 @@ import { CardsComponent } from './cards/cards.component';
 import { FilmDetailsComponent } from './film-details/film-details.component';
 import { CharacterDetailsComponent } from './character-details/character-details.component';
 import { PeopleComponent } from './people/people.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent, PeopleComponent ],
+  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent, PeopleComponent, SearchComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
