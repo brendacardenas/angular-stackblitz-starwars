@@ -220,19 +220,22 @@ background: url(image.png);
 }
 
 .menu-wrap .menu > div > div {
-  text-align: center;
+  text-align: left;
   max-width: 90vw;
   max-height: 50vh;
   opacity: 0;
   transition: opacity 0.4s ease;
-}
+  margin-top: -500px,
+  }
 
+/*this is the secction div for the menu */
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color:#FFE81F;
   font-size: 1.5rem;
   font-family: Staatliches;
-  margin-right: 100px;
+  margin-right: 80px;
+  margin-left: 120px;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
