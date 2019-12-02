@@ -9,11 +9,12 @@ import { HomeComponent } from './home/home.component';
 import { CardsComponent } from './cards/cards.component';
 import { FilmDetailsComponent } from './film-details/film-details.component';
 import { CharacterDetailsComponent } from './character-details/character-details.component';
+import { PeopleComponent } from './people/people.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent ],
+  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent, PeopleComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

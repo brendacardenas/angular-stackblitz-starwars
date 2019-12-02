@@ -3,17 +3,29 @@
 
 h1{
   color: black;
-font-family: 'Staatliches', cursive;  
+  font-family: 'Staatliches', cursive;  
 }
 
 .container{
   margin: 100px 100px 0px 100px;
-
 }
 
 
 h2{
   color: black;
-font-family: 'Staatliches', cursive;  
-font-size: 18px;
+  font-family: 'Staatliches', cursive;  
+  font-size: 18px;
+}
+
+p {
+  color: white;
+  font-family: Arial;
+}
+
+title{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
 }
