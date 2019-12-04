@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -15,7 +16,7 @@ import { SearchComponent } from './search/search.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent, PeopleComponent, SearchComponent ],
+  declarations: [ AppComponent, HelloComponent, NavMenuComponent, HomeComponent, CardsComponent, FilmDetailsComponent, CharacterDetailsComponent, PeopleComponent, SearchComponent,HttpClientModule ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
